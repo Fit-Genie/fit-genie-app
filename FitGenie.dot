@@ -1,0 +1,29 @@
+graph FitGenie {
+  a [label="Login Screen"];
+  // presents 'login' and 'signup' options
+  b [label="Existing User"];
+  // if user already has account, takes them to the welcome screen
+  c [label="New User"];
+  d [label="Signup Form"];
+  // presents options for signing up (google, facebook,
+  // FitGenie account)
+  e [label="Welcome Screen"];
+  // Greets user by name
+  f [label="Workout?"];
+  // Asks if they are ready for their workout
+  g [label="Yes"];
+  h [label="No"];
+  // takes user straignt to dashboard.
+  i [label="Today's Plan"];
+  // Shows today's workout plan and exercise timer
+  j [label="Post-Workout Assessment"];
+  // asks user how they feel after completing workout
+  k [label="Dashboard"]
+  // Shows user info / stats / options
+  a -- b -- e;
+  a -- c -- d;
+  d -- e;
+  e -- f;
+  f -- g -- i -- j -- k;
+  f -- h -- k;
+}
