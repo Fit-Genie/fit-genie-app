@@ -1,0 +1,77 @@
+html {
+  background: url(../img/black_thread.png) repeat;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background: #82d9e5;
+  margin-bottom: 4rem;
+}
+
+.login {
+  float: right;
+}
+
+input {
+  width: 12rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  margin: 0.6rem 1rem 0 0;
+}
+
+.logo {
+  color: #46656a;
+  font-family: 'Arvo', serif;
+  padding: 0.6rem;
+  margin: 0;
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.timer {
+  color: #ff8a00;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: 'Arvo', serif;
+  font-size: 9rem;
+  text-align: center;
+  padding: 2.8rem 0;
+}
+
+.current.warmup {
+  background: rgba(255, 138, 0, 0.3);
+  color: white;
+}
+
+.movement {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #999;
+  color: rgba(255, 255, 255, 0.5);
+  background: darkgray;
+  background: rgba(0, 0, 0, 0.3);
+  border-top: 4px solid;
+  border-radius: 6px;
+  margin-bottom: 0.4rem;
+  padding: 1.4rem;
+}
+
+.warmup {
+  border-top-color: #ff8a00;
+}
+
+.main {
+  border-top-color: #0ea692;
+}
+
+.cooldown {
+  border-top-color: #2fb3c6;
+}
