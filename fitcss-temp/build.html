@@ -15,7 +15,7 @@
       <input type="text" placeholder="password">
     </div>
   </nav>
-  <section class="workoutBuild clearfix">
+  <section class="workoutBuild">
     <form id="workoutBuild">
       <h1>Workout Builder</h1>
       <fieldset>
@@ -23,57 +23,57 @@
           Add New Exercise
         </legend>
         <input id="exercise-name" class="exercise-name" name="exercise-name" type="text" placeholder="Exercise Name" required>
-
-        <label for="exercise-type" class="exercise-type_label">Type</label>
-          <select id="exercise-type" class="exercise-type_select" name="select" required>
-            <option value="1">
-              Warm Up
-            </option>
-            <option value="2">
-              Core
-            </option>
-            <option value="3">
-              Cool Down
-            </option>
-          </select>
-
-        <label for="exercise-duration" class="exercise-duration-label">Duration</label>
-        <input id="exercise-duration_min" name="exercise-duration_min" type="text" placeholder="min" class="exercise-duration" required>:&nbsp;
-        <input id="exercise-duration_sec" name="exercise-duration_sec" type="text" placeholder="sec" class="exercise-duration" required>
+        <div class="exercise-type_container">
+          <label for="exercise-type" class="exercise-type_label">Type</label>
+            <select id="exercise-type" class="exercise-type_select" name="select" required>
+              <option value="1">
+                Warm Up
+              </option>
+              <option value="2">
+                Core
+              </option>
+              <option value="3">
+                Cool Down
+              </option>
+            </select>
+        </div>
+        <div class="exercise-duration_container">
+          <label for="exercise-duration" class="exercise-duration-label">Duration</label>
+          <input id="exercise-duration_min" name="exercise-duration_min" type="number" placeholder="min" class="exercise-duration" required maxlength="2" >:
+          <input id="exercise-duration_sec" name="exercise-duration_sec" type="number" placeholder="sec" class="exercise-duration" required maxlength="2">
+        </div>
         <textarea id="exercise-info" name="exercise-info" placeholder="Additional Information" class="exercise-info"></textarea>
-
       <button type="submit" class="btn-submit">Add to Workout</button>
     </form>
   </section>
-  <!-- <section class="timer">
-    0:37
+  <section class="movementBuilder">
+    <div class="movement warmup current">
+        <span>Exercise</span><span class="movement-info">?</span>
+      </div>
+      <div class="movement warmup">
+        <p>Exercise</p>
+      </div>
+      <div class="movement warmup">
+        <p>Exercise</p>
+      </div>
+      <div class="movement core">
+        <p>Exercise</p>
+      </div>
+      <div class="movement core">
+        <p>Exercise</p>
+      </div>
+      <div class="movement core">
+        <p>Exercise</p>
+      </div>
+      <div class="movement core">
+        <p>Exercise</p>
+      </div>
+      <div class="movement cooldown">
+        <p>Exercise</p>
+      </div>
+      <div class="movement cooldown">
+        <p>Exercise</p>
+      </div>
   </section>
-  <div class="movement warmup current">
-    Arm Circles
-  </div>
-  <div class="movement warmup">
-    Jumping Jacks
-  </div>
-  <div class="movement warmup">
-    Toe Wiggles
-  </div>
-  <div class="movement core">
-    Push Ups
-  </div>
-  <div class="movement core">
-    Plank
-  </div>
-  <div class="movement core">
-    Squats
-  </div>
-  <div class="movement core">
-    Chin Ups
-  </div>
-  <div class="movement cooldown">
-    Exercise
-  </div>
-  <div class="movement cooldown">
-    Exercise
-  </div> -->
 </body>
 </html>
