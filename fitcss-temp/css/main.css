@@ -55,14 +55,8 @@ table {
 
 html {
   background: url(../img/black_thread.png) repeat;
-  margin: 0;
-  padding: 0;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
 nav {
   background: #82d9e5;
   margin-bottom: 4rem;
@@ -70,17 +64,6 @@ nav {
 
 /* Layout
 ********************************/
-
-
-
-
-
-
-/* Module
-********************************/
-.login {
-  float: right;
-}
 
 input {
   width: 12rem;
@@ -90,11 +73,16 @@ input {
   margin: 0.6rem 1rem 0 0;
 }
 
+/* Module
+********************************/
+.login {
+  float: right;
+}
+
 .logo {
   color: #46656a;
   font-family: 'Arvo', serif;
   padding: 0.6rem;
-  margin: 0;
   font-size: 2rem;
   display: inline-block;
 }
@@ -107,11 +95,6 @@ input {
   font-size: 9rem;
   text-align: center;
   padding: 2.8rem 0;
-}
-
-.current.warmup {
-  background: rgba(255, 138, 0, 0.3);
-  color: white;
 }
 
 .movement {
@@ -129,11 +112,16 @@ input {
   padding: 1.4rem;
 }
 
+.current.warmup {
+  background: rgba(255, 138, 0, 0.3);
+  color: white;
+}
+
 .warmup {
   border-top-color: #ff8a00;
 }
 
-.main {
+.core {
   border-top-color: #0ea692;
 }
 
