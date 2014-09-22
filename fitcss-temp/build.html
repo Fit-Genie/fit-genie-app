@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Build Workout</title>
+  <link href='http://fonts.googleapis.com/css?family=Arvo|Ubuntu:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/form.css"
+</head>
+<body>
+  <nav>
+    <h1 class="logo">FitGenie</h1>
+    <div class="login">
+      <input type="text" placeholder="username">
+      <input type="text" placeholder="password">
+    </div>
+  </nav>
+  <section class="workoutBuild clearfix">
+    <form id="workoutBuild">
+      <h1>Workout Builder</h1>
+      <fieldset>
+        <legend>
+          Add New Exercise
+        </legend>
+        <input id="exercise-name" class="exercise-name" name="exercise-name" type="text" placeholder="Exercise Name">
+        <label for="exercise-type">Type</label>
+          <select id="exercise-type" name="select">
+            <option value="1">
+              Warm Up
+            </option>
+            <option value="2">
+              Core
+            </option>
+            <option value="3">
+              Cool Down
+            </option>
+          </select>
+        <label for="exercise-duration">Duration</label>
+          <input id="exercise-duration" name="exercise-duration" type="text" placeholder="min">
+          <input id="exercise-duration" name="exercise-duration" type="text" placeholder="sec">
+        <textarea id="exercise-info" name="exercise-info" placeholder="Additional Information"></textarea>
+      </fieldset>
+    </form>
+  </section>
+  <!-- <section class="timer">
+    0:37
+  </section>
+  <div class="movement warmup current">
+    Arm Circles
+  </div>
+  <div class="movement warmup">
+    Jumping Jacks
+  </div>
+  <div class="movement warmup">
+    Toe Wiggles
+  </div>
+  <div class="movement core">
+    Push Ups
+  </div>
+  <div class="movement core">
+    Plank
+  </div>
+  <div class="movement core">
+    Squats
+  </div>
+  <div class="movement core">
+    Chin Ups
+  </div>
+  <div class="movement cooldown">
+    Exercise
+  </div>
+  <div class="movement cooldown">
+    Exercise
+  </div> -->
+</body>
+</html>
