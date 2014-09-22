@@ -102,7 +102,7 @@ table {
 }
 
 html {
-  background: url(../img/black_thread.png) repeat;
+  background: url(../img/bg.png) repeat;
   font-family: 'Ubuntu', sans-serif;
   height: 100%;
 }
@@ -151,7 +151,7 @@ Module
   font-family: 'Arvo', serif;
   font-size: 9rem;
   text-align: center;
-  padding: 4rem 0 1rem 0;
+  padding: 3rem 0 1rem 0;
 }
 
 .timer.warmup {
@@ -227,7 +227,7 @@ Module
   height: 3rem;
   border-radius: 6px;
   margin: 0.5rem;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   outline: none;
   border: none;
   color: white;
@@ -259,6 +259,10 @@ State
     margin: 0;
     bottom: 0;
     width: 100%;
-    background: rgba(70, 101, 106, 0.8);
+    background: rgba(70, 101, 106, 0.9);
   }
+
+	.timer {
+		padding-bottom: 3rem;
+	}
 }
