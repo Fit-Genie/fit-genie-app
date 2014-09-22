@@ -1,5 +1,5 @@
 /*******************************
-   Base
+Base
 ********************************/
 
 html, body, div, span, applet, object, iframe,
@@ -60,7 +60,7 @@ nav {
 
 
 /*******************************
-   Layout
+Layout
 ********************************/
 
 .user-login {
@@ -74,7 +74,7 @@ nav {
 
 
 /*******************************
-   Module
+Module
 ********************************/
 
 .login {
@@ -97,7 +97,7 @@ nav {
   font-family: 'Arvo', serif;
   font-size: 9rem;
   text-align: center;
-  padding: 4rem 0;
+  padding: 4rem 0 1rem 0;
 }
 
 .timer.warmup {
@@ -126,6 +126,9 @@ nav {
   padding: 1.4rem;
 }
 
+.movement-info {
+  float: right;
+}
 /* Changes background color of current movement */
 .current {
   color: white;
@@ -160,12 +163,10 @@ nav {
 
 .controls {
   text-align: center;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
   height: 4rem;
   color: white;
-  background: rgba(70, 101, 106, 0.8);
+  background: none;
+  margin-bottom: 2rem;
 }
 
 .controls-button {
@@ -195,7 +196,18 @@ State
   .user-login {
     display: inline;
   }
+
   .movement {
-      border-radius: 6px;
+    border-radius: 6px;
+  }
+}
+
+@media (max-width: 640px) {
+  .controls {
+    position: fixed;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(70, 101, 106, 0.8);
   }
 }
