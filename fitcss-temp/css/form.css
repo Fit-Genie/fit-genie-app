@@ -5,17 +5,53 @@
    height: 0;
    clear: both;
 }
-.workoutBuild{
+.workoutBuild {
   width: 500px;
   margin: 0 auto;
   color: white;
   font-family:'Ubuntu', sans-serif;
+  line-height:2.618rem;
+
 }
-.workoutBuild h1{
+.workoutBuild h1 {
  font-size: 2.618rem;
+ line-height: 4.236rem;
+ color:#2fb3c6;
 }
-input.exercise-name{
-  float:right;
+input.exercise-name {
   width:100%;
+}
+input.exercise-name, .exercise-type_select, .exercise-duration, .exercise-info {
+  background: rgba(255, 255, 255, 0.2);
+  border:0;
+  color:white;
+}
+
+.exercise-type_select {
+  display:block;
+  width: 50%;
+  padding: 5px;
+  line-height: 1;
+  border: 0;
+  border-radius:0;
+  height:1.618rem;
+}
+.exercise-duration_label {
+
+}
+.exercise-duration {
+  display: inline-block;
+  width:10%;
+}
+.exercise-info{
+  width:100%;
+  height:4.236rem;
+}
+.btn-submit{
+  width:100%;
+  height:2.618rem;
+  background-color:#f4f3f3;
+  color:#46656a;
+  border:1px solid #2fb3c6;
 }
 

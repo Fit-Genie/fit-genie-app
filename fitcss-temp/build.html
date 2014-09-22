@@ -22,9 +22,10 @@
         <legend>
           Add New Exercise
         </legend>
-        <input id="exercise-name" class="exercise-name" name="exercise-name" type="text" placeholder="Exercise Name">
-        <label for="exercise-type">Type</label>
-          <select id="exercise-type" name="select">
+        <input id="exercise-name" class="exercise-name" name="exercise-name" type="text" placeholder="Exercise Name" required>
+
+        <label for="exercise-type" class="exercise-type_label">Type</label>
+          <select id="exercise-type" class="exercise-type_select" name="select" required>
             <option value="1">
               Warm Up
             </option>
@@ -35,11 +36,13 @@
               Cool Down
             </option>
           </select>
-        <label for="exercise-duration">Duration</label>
-          <input id="exercise-duration" name="exercise-duration" type="text" placeholder="min">
-          <input id="exercise-duration" name="exercise-duration" type="text" placeholder="sec">
-        <textarea id="exercise-info" name="exercise-info" placeholder="Additional Information"></textarea>
-      </fieldset>
+
+        <label for="exercise-duration" class="exercise-duration-label">Duration</label>
+        <input id="exercise-duration_min" name="exercise-duration_min" type="text" placeholder="min" class="exercise-duration" required>:&nbsp;
+        <input id="exercise-duration_sec" name="exercise-duration_sec" type="text" placeholder="sec" class="exercise-duration" required>
+        <textarea id="exercise-info" name="exercise-info" placeholder="Additional Information" class="exercise-info"></textarea>
+
+      <button type="submit" class="btn-submit">Add to Workout</button>
     </form>
   </section>
   <!-- <section class="timer">
