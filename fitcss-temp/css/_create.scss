@@ -3,11 +3,13 @@ input.exercise-name, input.workout-name {
   width: 100%;
   height: 1.618rem;
 }
+
 input.exercise-name,
 .exercise-type_select,
 .exercise-duration,
 .exercise-info,
 input.workout-name {
+  background: rgb(255, 255, 255);
   background: rgba(255, 255, 255, 0.2);
   border: 0;
   color: white;
@@ -23,30 +25,33 @@ input.workout-name {
   line-height: 1;
   border: 0;
   border-radius: 0;
-
 }
+
 .exercise-type_container,
 .exercise-duration_container {
   width: 50%;
   height: 2.618rem;
-  display: inline-block;
   float: left;
 }
+
 .exercise-duration_label {
-  display:block;
+  display: block;
   width: 100%;
   clear: both;
 }
+
 .exercise-duration {
   display: inline-block;
   width: 23%;
   margin: 0 0.382rem ;
 }
+
 .exercise-info {
   width: 100%;
   height: 4.236rem;
   margin-top: 0.382rem;
 }
+
 .btn-submit ,
 .btn-submit-inactive {
   width: 100%;
@@ -57,12 +62,13 @@ input.workout-name {
   margin: $small 0;
   font-size: $small;
 }
+
 .btn-submit-inactive{
   background-color: darken(#f4f3f3, 30%);
 }
+
 .btn-submit:hover,
 .btn-submit:active {
   cursor: pointer;
 }
-// Welcome Page Styles
 

@@ -1,6 +1,6 @@
 @import "icon-fonts";
-@import "reset";
 @import "theme";
+@import "reset";
 @import "workout";
 @import "create";
 @import "congratulations";
@@ -61,10 +61,26 @@ nav {
 
 .btn-submit:hover,
 .btn-submit:active {
-  background: rgba(#f4f3f3, 0.5);
+  background: darken($wild-sand, 50%);
+  background: rgba(244, 243, 243, 0.5);
   color: white;
   cursor: pointer;
 }
+
+/* Heading & Text Style
+****************************/
+
+h1 {
+  font-size: $large;
+  line-height: $huge;
+  color: $scooter;
+}
+
+h2 {
+  font-size: $normal;
+  line-height: $large;
+}
+
 /*******************************
 State
 ********************************/
@@ -85,6 +101,7 @@ State
     margin: 0;
     bottom: 0;
     width: 100%;
+    background: darken($niagara, 80%);
     background: rgba(70, 101, 106, 0.9);
   }
 

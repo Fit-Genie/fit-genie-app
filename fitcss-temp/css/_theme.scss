@@ -6,6 +6,7 @@ $niagara: #0ea692;     //turquoise
 $bison-hide: #c7baac;  //tan
 $emperor: #545454;     //medium gray
 $scooter: #2fb3c6;     //bright blue
+$wild-sand: #f4f3f3;
 
 
 /* Type Size Variables
@@ -20,16 +21,3 @@ $huge: 4.236rem;
 $gigantic: 6.854rem;
 
 
-/* Heading & Text Style
-****************************/
-
-h1 {
-  font-size: $large;
-  line-height: $huge;
-  color: $scooter;
-}
-
-h2 {
-  font-size: $normal;
-  line-height: $large;
-}
