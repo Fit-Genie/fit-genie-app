@@ -251,8 +251,12 @@ input.workout-name {
 .btn-submit:active {
   cursor: pointer; }
 
-.congrats-heading {
-  font-size: 4.236rem; }
+.congrats {
+  margin: 0 auto;
+  text-align: center; }
+
+.congrats h1 {
+  margin: 0 auto; }
 
 /*******************************
 Module
@@ -266,7 +270,7 @@ nav {
   width: 12rem;
   font-size: 1rem;
   padding: 0.2rem;
-  margin: 0.6rem 1rem 0 0; }
+  margin: 1rem 1rem 0 0; }
 
 .login {
   float: right; }
@@ -274,7 +278,7 @@ nav {
 .logo {
   color: #1b6874;
   font-family: 'Arvo', serif;
-  padding: 0.6rem;
+  padding: 0 0.8rem;
   font-size: 1.618rem;
   display: inline-block; }
 
