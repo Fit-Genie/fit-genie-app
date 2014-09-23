@@ -245,13 +245,15 @@ input.workout-name {
 .btn-submit:active {
   cursor: pointer; }
 
-.congrats {
-  margin: 0 auto;
-  text-align: center; }
-
-.congrats label {
+.congrats p {
+  text-align: center;
   font-size: 1.618rem;
   margin-top: 1.618rem;
+  display: block; }
+
+.congrats input {
+  margin: 0 auto;
+  width: 320px;
   display: block; }
 
 /*******************************
@@ -283,6 +285,10 @@ nav {
   margin: 0 auto;
   color: white;
   line-height: 2.618rem; }
+
+.centered {
+  margin: 0 auto;
+  text-align: center; }
 
 /*******************************
 State

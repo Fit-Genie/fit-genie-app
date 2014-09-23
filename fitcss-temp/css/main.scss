@@ -32,11 +32,17 @@ nav {
   font-size: $normal;
   display: inline-block;
 }
-.container{
+
+.container {
   max-width: 640px;
   margin: 0 auto;
   color: white;
   line-height: 2.618rem;
+}
+
+.centered {
+  margin: 0 auto;
+  text-align: center;
 }
 
 
