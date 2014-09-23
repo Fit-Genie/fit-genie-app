@@ -205,7 +205,8 @@ input.workout-name {
   border: 0;
   color: white;
   height: 1.618rem;
-  padding: 0.382em; }
+  padding: 0.382em;
+  font-size: 1rem; }
 
 .exercise-type_select {
   display: inline-block;
@@ -229,7 +230,7 @@ input.workout-name {
 
 .exercise-duration {
   display: inline-block;
-  width: 16.18%;
+  width: 23%;
   margin: 0 0.382rem; }
 
 .exercise-info {
@@ -243,8 +244,8 @@ input.workout-name {
   background-color: #f4f3f3;
   color: #1b6874;
   border: 1px solid #2fb3c6;
-  margin-bottom: 1.618rem;
-  font-size: 1.618rem; }
+  margin: 1.618rem 0;
+  font-size: 1rem; }
 
 .btn-submit:hover,
 .btn-submit:active {
