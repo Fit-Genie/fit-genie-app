@@ -8,7 +8,7 @@ $emperor: #545454;     //medium gray
 $scooter: #2fb3c6;     //bright blue
 
 
-/* Type Sizes
+/* Type Size Variables
 ****************************/
 
 $tiny: 0.381rem;
@@ -18,3 +18,18 @@ $normal: 1.618rem;
 $large: 2.618rem;
 $huge: 4.236rem;
 $gigantic: 6.854rem;
+
+
+/* Heading & Text Style
+****************************/
+
+h1 {
+  font-size: $large;
+  line-height: $huge;
+  color: $scooter;
+}
+
+h2 {
+  font-size: $normal;
+  line-height: $large;
+}

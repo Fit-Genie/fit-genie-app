@@ -93,15 +93,26 @@ html {
 
 /* Colors
 ****************************/
-/* Type Sizes
+/* Type Size Variables
 ****************************/
+/* Heading & Text Style
+****************************/
+h1 {
+  font-size: 2.618rem;
+  line-height: 4.236rem;
+  color: #2fb3c6; }
+
+h2 {
+  font-size: 1.618rem;
+  line-height: 2.618rem; }
+
 /* General timer style, and color changes for current movement */
 .timer {
   color: #ff8a00;
   max-width: 500px;
   margin: 0 auto;
   font-family: 'Arvo', serif;
-  font-size: 6.854rem;
+  font-size: 11.08977rem;
   text-align: center;
   padding: 3rem 0 1rem 0; }
 
@@ -181,15 +192,6 @@ html {
   color: white;
   line-height: 2.618rem; }
 
-.workoutBuild h1 {
-  font-size: 2.618rem;
-  line-height: 4.236rem;
-  color: #2fb3c6; }
-
-.workoutBuild h2 {
-  font-size: 1.618rem;
-  line-height: 2.628rem; }
-
 input.exercise-name {
   width: 100%;
   height: 1.618rem; }
@@ -241,11 +243,14 @@ input.exercise-name,
   color: #1b6874;
   border: 1px solid #2fb3c6;
   margin-bottom: 1.618rem;
-  font-size: 1rem; }
+  font-size: 1.618rem; }
 
 .btn-submit:hover,
 .btn-submit:active {
   cursor: pointer; }
+
+.congrats-heading {
+  font-size: 4.236rem; }
 
 /*******************************
 Module
