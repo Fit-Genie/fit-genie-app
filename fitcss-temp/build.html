@@ -18,20 +18,20 @@
     <form id="workoutBuild">
       <h1>Workout Builder</h1>
       <h2>Add New Exercise</h2>
-        <input type="text" id="exercise-name" class="exercise-name" name="exercise-name" placeholder="Exercise Name" required>
-        <div class="exercise-type_container">
-          <label for="exercise-type" class="exercise-type_label">Type</label>
-            <select id="exercise-type" class="exercise-type_select" name="select" required>
-              <option value="1">
-                Warm Up
-              </option>
-              <option value="2">
-                Core
-              </option>
-              <option value="3">
-                Cool Down
-              </option>
-            </select>
+      <input type="text" id="exercise-name" class="exercise-name" name="exercise-name" placeholder="Exercise Name" required>
+      <div class="exercise-type_container">
+        <label for="exercise-type" class="exercise-type_label">Type</label>
+          <select id="exercise-type" class="exercise-type_select" name="select" required>
+            <option value="1">
+              Warm Up
+            </option>
+            <option value="2">
+              Core
+            </option>
+            <option value="3">
+              Cool Down
+            </option>
+          </select>
         </div>
         <div class="exercise-duration_container">
           <label for="exercise-duration" class="exercise-duration-label">Duration</label>
@@ -69,6 +69,11 @@
     <div class="movement cooldown">
       <span>Exercise</span><span class="icon-cancel-circle"></span>
     </div>
+    <form id="workoutName">
+      <h2>Name Your Workout</h2>
+      <input type="text" class="workout-name" name="workout-name" placeholder="e.g. Aerobic Core Intensive, Light Cardio, etc" required>
+      <button type="submit" class="btn-submit">Save Your Workout</button>
+    </form>
   </section>
 </body>
 </html>
