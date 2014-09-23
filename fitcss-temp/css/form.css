@@ -53,11 +53,6 @@ input.exercise-name,
   display:inline-block;
   float:left;
 }
-.exercise-duration_label {
-  display:block;
-  width:100%;
-  clear:both;
-}
 .exercise-duration {
   display:inline-block;
   width:16.18%;
