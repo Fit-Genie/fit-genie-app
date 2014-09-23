@@ -186,12 +186,6 @@ h2 {
   color: #7bd3e0; }
 
 /* Workout Builder page styles */
-.workoutBuild {
-  max-width: 640px;
-  margin: 0 auto;
-  color: white;
-  line-height: 2.618rem; }
-
 input.exercise-name, input.workout-name {
   width: 100%;
   height: 1.618rem; }
@@ -283,6 +277,12 @@ nav {
   padding: 0 0.8rem;
   font-size: 1.618rem;
   display: inline-block; }
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  color: white;
+  line-height: 2.618rem; }
 
 /*******************************
 State

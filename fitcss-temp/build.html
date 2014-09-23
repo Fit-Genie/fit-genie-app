@@ -7,75 +7,73 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="page-wrap">
-    <nav>
-      <h1 class="logo">FitGenie</h1>
-      <div class="login">
-        <input class="user-login" type="text" placeholder="username">
-        <input class="user-login" type="text" placeholder="password">
-      </div>
-    </nav>
-    <section class="workoutBuild">
-      <form id="workoutBuild">
-        <h1>Workout Builder</h1>
-        <h2>Add New Exercise</h2>
-        <input type="text" id="exercise-name" class="exercise-name" name="exercise-name" placeholder="Exercise Name" required>
-        <div class="exercise-type_container">
-          <label for="exercise-type" class="exercise-type_label">Type</label>
-            <select id="exercise-type" class="exercise-type_select" name="select" required>
-              <option value="1">
-                Warm Up
-              </option>
-              <option value="2">
-                Core
-              </option>
-              <option value="3">
-                Cool Down
-              </option>
-            </select>
-          </div>
-          <div class="exercise-duration_container">
-            <label for="exercise-duration" class="exercise-duration-label">Duration</label>
-            <input id="exercise-duration_min" name="exercise-duration_min" type="text" placeholder="min" class="exercise-duration" required maxlength="2" >:
-            <input id="exercise-duration_sec" name="exercise-duration_sec" type="text" placeholder="sec" class="exercise-duration" required maxlength="2">
-          </div>
-          <textarea id="exercise-info" name="exercise-info" placeholder="Additional Information" class="exercise-info"></textarea>
-        <button type="submit" class="btn-submit">Add to Workout</button>
-      </form>
-      <h2>Movement Set</h2>
-      <div class="movement warmup">
-        <span>Exercise</span><span class="icon-cancel-circle"></span>
-      </div>
-      <div class="movement warmup">
-        <span>Exercise</span><span class="icon-cancel-circle"></span>
-      </div>
-      <div class="movement warmup">
-        <span>Exercise</span><span class="icon-cancel-circle"></span>
-      </div>
-      <div class="movement core">
-        <span>Exercise</span><span class="icon-cancel-circle"></span>
-      </div>
-      <div class="movement core">
-        <span>Exercise</span><span class="icon-cancel-circle"></span>
-      </div>
-      <div class="movement core">
-        <span>Exercise</span><span class="icon-cancel-circle"></span>
-      </div>
-      <div class="movement core">
-        <span>Exercise</span><span class="icon-cancel-circle"></span>
-      </div>
-      <div class="movement cooldown">
-        <span>Exercise</span><span class="icon-cancel-circle"></span>
-      </div>
-      <div class="movement cooldown">
-        <span>Exercise</span><span class="icon-cancel-circle"></span>
-      </div>
-      <form id="workoutName">
-        <h2>Name Your Workout</h2>
-        <input type="text" class="workout-name" name="workout-name" placeholder="e.g. Aerobic Core Intensive, Light Cardio, etc" required>
-        <button type="submit" class="btn-submit">Save Your Workout</button>
-      </form>
-    </section>
-  </div>
+  <nav>
+    <h1 class="logo">FitGenie</h1>
+    <div class="login">
+      <input class="user-login" type="text" placeholder="username">
+      <input class="user-login" type="text" placeholder="password">
+    </div>
+  </nav>
+  <section class="container">
+    <form id="workoutBuild">
+      <h1>Workout Builder</h1>
+      <h2>Add New Exercise</h2>
+      <input type="text" id="exercise-name" class="exercise-name" name="exercise-name" placeholder="Exercise Name" required>
+      <div class="exercise-type_container">
+        <label for="exercise-type" class="exercise-type_label">Type</label>
+          <select id="exercise-type" class="exercise-type_select" name="select" required>
+            <option value="1">
+              Warm Up
+            </option>
+            <option value="2">
+              Core
+            </option>
+            <option value="3">
+              Cool Down
+            </option>
+          </select>
+        </div>
+        <div class="exercise-duration_container">
+          <label for="exercise-duration" class="exercise-duration-label">Duration</label>
+          <input id="exercise-duration_min" name="exercise-duration_min" type="text" placeholder="min" class="exercise-duration" required maxlength="2" >:
+          <input id="exercise-duration_sec" name="exercise-duration_sec" type="text" placeholder="sec" class="exercise-duration" required maxlength="2">
+        </div>
+        <textarea id="exercise-info" name="exercise-info" placeholder="Additional Information" class="exercise-info"></textarea>
+      <button type="submit" class="btn-submit">Add to Workout</button>
+    </form>
+    <h2>Movement Set</h2>
+    <div class="movement warmup">
+      <span>Exercise</span><span class="icon-cancel-circle"></span>
+    </div>
+    <div class="movement warmup">
+      <span>Exercise</span><span class="icon-cancel-circle"></span>
+    </div>
+    <div class="movement warmup">
+      <span>Exercise</span><span class="icon-cancel-circle"></span>
+    </div>
+    <div class="movement core">
+      <span>Exercise</span><span class="icon-cancel-circle"></span>
+    </div>
+    <div class="movement core">
+      <span>Exercise</span><span class="icon-cancel-circle"></span>
+    </div>
+    <div class="movement core">
+      <span>Exercise</span><span class="icon-cancel-circle"></span>
+    </div>
+    <div class="movement core">
+      <span>Exercise</span><span class="icon-cancel-circle"></span>
+    </div>
+    <div class="movement cooldown">
+      <span>Exercise</span><span class="icon-cancel-circle"></span>
+    </div>
+    <div class="movement cooldown">
+      <span>Exercise</span><span class="icon-cancel-circle"></span>
+    </div>
+    <form id="workoutName">
+      <h2>Name Your Workout</h2>
+      <input type="text" class="workout-name" name="workout-name" placeholder="e.g. Aerobic Core Intensive, Light Cardio, etc" required>
+      <button type="submit" class="btn-submit">Save Your Workout</button>
+    </form>
+  </section>
 </body>
 </html>
