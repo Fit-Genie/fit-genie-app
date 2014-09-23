@@ -1,10 +1,12 @@
-.congrats {
-  margin: 0 auto;
+.congrats p {
   text-align: center;
-}
-
-.congrats label {
   font-size: $normal;
   margin-top: $normal;
+  display: block;
+}
+
+.congrats input {
+  margin: 0 auto;
+  width: 320px;
   display: block;
 }
