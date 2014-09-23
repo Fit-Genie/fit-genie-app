@@ -4,7 +4,7 @@
   max-width: 500px;
   margin: 0 auto;
   font-family: 'Arvo', serif;
-  font-size: 9rem;
+  font-size: $gigantic;
   text-align: center;
   padding: 3rem 0 1rem 0;
 }
@@ -25,7 +25,7 @@
 .movement {
   max-width: 640px;
   margin: 0 auto;
-  font-size: 1.6rem;
+  font-size: $normal;
   color: #999;
   color: rgba(255, 255, 255, 0.5);
   background: $emperor;
@@ -76,7 +76,7 @@
 
 .controls-button {
   margin: 0 auto;
-  font-size: 1.6rem;
+  font-size: $normal;
   width: 9rem;
   height: 3rem;
   border-radius: 6px;
