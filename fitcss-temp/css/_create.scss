@@ -15,14 +15,15 @@
   font-size: $normal;
   line-height: $large;
 }
-input.exercise-name {
+input.exercise-name, input.workout-name {
   width: 100%;
   height: 1.618rem;
 }
 input.exercise-name,
 .exercise-type_select,
 .exercise-duration,
-.exercise-info {
+.exercise-info,
+input.workout-name {
   background: rgba(255, 255, 255, 0.2);
   border: 0;
   color: white;
