@@ -20,6 +20,7 @@ input.workout-name {
   color: white;
   height: 1.618rem;
   padding: 0.382em;
+  font-size: $small;
 }
 
 .exercise-type_select {
@@ -45,10 +46,9 @@ input.workout-name {
 }
 .exercise-duration {
   display: inline-block;
-  width: 16.18%;
+  width: 23%;
   margin: 0 0.382rem ;
 }
-
 .exercise-info {
   width: 100%;
   height: 4.236rem;
@@ -60,8 +60,8 @@ input.workout-name {
   background-color: #f4f3f3;
   color: darken($scooter, 20%);
   border: 1px solid #2fb3c6;
-  margin-bottom: $normal;
-  font-size: $normal;
+  margin: $normal 0;
+  font-size: $small;
 }
 .btn-submit:hover,
 .btn-submit:active {
