@@ -255,8 +255,10 @@ input.workout-name {
   margin: 0 auto;
   text-align: center; }
 
-.congrats h1 {
-  margin: 0 auto; }
+.congrats label {
+  font-size: 1.618rem;
+  margin-top: 1.618rem;
+  display: block; }
 
 /*******************************
 Module
