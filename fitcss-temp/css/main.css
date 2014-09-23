@@ -57,7 +57,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 18px;
   font: inherit;
   vertical-align: baseline; }
 
@@ -91,13 +91,17 @@ html {
   color: white;
   height: 100%; }
 
+/* Colors
+****************************/
+/* Type Sizes
+****************************/
 /* General timer style, and color changes for current movement */
 .timer {
   color: #ff8a00;
   max-width: 500px;
   margin: 0 auto;
   font-family: 'Arvo', serif;
-  font-size: 9rem;
+  font-size: 6.854rem;
   text-align: center;
   padding: 3rem 0 1rem 0; }
 
@@ -114,7 +118,7 @@ html {
 .movement {
   max-width: 640px;
   margin: 0 auto;
-  font-size: 1.6rem;
+  font-size: 1.618rem;
   color: #999;
   color: rgba(255, 255, 255, 0.5);
   background: #545454;
@@ -155,7 +159,7 @@ html {
 
 .controls-button {
   margin: 0 auto;
-  font-size: 1.6rem;
+  font-size: 1.618rem;
   width: 9rem;
   height: 3rem;
   border-radius: 6px;
@@ -253,7 +257,7 @@ nav {
 .user-login {
   display: none;
   width: 12rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.2rem;
   margin: 0.6rem 1rem 0 0; }
 
@@ -264,7 +268,7 @@ nav {
   color: #1b6874;
   font-family: 'Arvo', serif;
   padding: 0.6rem;
-  font-size: 2rem;
+  font-size: 1.618rem;
   display: inline-block; }
 
 /*******************************

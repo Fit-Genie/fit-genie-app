@@ -7,13 +7,13 @@
 }
 
 .workoutBuild h1 {
-  font-size: 2.618rem;
-  line-height: 4.236rem;
+  font-size: $large;
+  line-height: $huge;
   color: #2fb3c6;
 }
 .workoutBuild h2 {
-  font-size: 1.618rem;
-  line-height: 2.628rem;
+  font-size: $normal;
+  line-height: $large;
 }
 input.exercise-name {
   width: 100%;
@@ -68,8 +68,8 @@ input.exercise-name,
   background-color: #f4f3f3;
   color: darken($scooter, 20%);
   border: 1px solid #2fb3c6;
-  margin-bottom: 1.618rem;
-  font-size: 1rem;
+  margin-bottom: $normal;
+  font-size: $normal;
 }
 .btn-submit:hover,
 .btn-submit:active {
