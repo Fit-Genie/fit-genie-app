@@ -3,10 +3,8 @@
   text-align: center;
 }
 
-.congrats h1 {
-  margin: 0 auto;
-}
-
-.congrats p {
-
+.congrats label {
+  font-size: $normal;
+  margin-top: $normal;
+  display: block;
 }
