@@ -1,0 +1,50 @@
+.calendar{
+  width:100%;
+  border-spacing: 0;
+  margin: $normal 0;
+}
+.calendar tr, th, td {
+  border-top: 1px solid $niagara;
+  width: 14%;
+  padding-top: 0;
+  text-align: center;
+  vertical-align: top;
+  font-size: $small;
+}
+.calendar td {
+  height: $gigantic;
+}
+.calendar th {
+  color: #FFF;
+  height: $normal;
+  border:0;
+  background: darken($niagara, 20%);
+  background: rgba($niagara, 0.2);
+}
+.calendar-today {
+  background: darken($niagara, 20%);
+  background: rgba($niagara, 0.2);
+}
+// After Pseudo-Classes for Calendar
+.icon-happy-a:after {
+  content: "\e600";
+}
+.icon-smiley-a:after {
+  content: "\e601";
+}
+.icon-sad-a:after {
+  content: "\e602";
+}
+.icon-grin-a:after {
+  content: "\e603";
+}
+.icon-angry-a:after {
+  content: "\e604";
+}
+.icon-info-a:after {
+  content: "\e605";
+}
+.icon-cancel-circle-a:after {
+  content: "\e606";
+}
+
