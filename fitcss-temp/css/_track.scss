@@ -3,6 +3,7 @@
   border-spacing: 0;
   margin: $normal 0;
 }
+
 .calendar tr, th, td {
   border-top: 1px solid $niagara;
   width: 14%;
@@ -11,9 +12,11 @@
   vertical-align: top;
   font-size: $small;
 }
+
 .calendar td {
   height: $gigantic;
 }
+
 .calendar th {
   color: #FFF;
   height: $normal;
@@ -21,30 +24,38 @@
   background: darken($niagara, 20%);
   background: rgba($niagara, 0.2);
 }
+
 .calendar-today {
   background: darken($niagara, 20%);
   background: rgba($niagara, 0.2);
 }
-// After Pseudo-Classes for Calendar
-.icon-happy-a:after {
-  content: "\e600";
+
+.data {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-size: $large;
 }
-.icon-smiley-a:after {
-  content: "\e601";
+.track-none{
+  border: 2px solid #000;
+  width: 45%;
+  height: 40%;
+  border-radius: 50%;
 }
-.icon-sad-a:after {
-  content: "\e602";
+.track-whole {
+  color: $niagara;
 }
-.icon-grin-a:after {
-  content: "\e603";
+
+.track-partial {
+  color: darken($scooter, 10%);
 }
-.icon-angry-a:after {
-  content: "\e604";
+
+.track-zero {
+  color: $pizazz;
 }
-.icon-info-a:after {
-  content: "\e605";
+
+.track-future {
+  color: rgba($scooter, 0.5);
 }
-.icon-cancel-circle-a:after {
-  content: "\e606";
-}
+
 
